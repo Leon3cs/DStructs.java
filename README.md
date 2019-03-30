@@ -28,7 +28,7 @@ I've created this library to use as a model for the application which the user w
     3. Search for a registry by date, college registry or type of occurrence.
     4. Update registries.
     
-- The stack package contains a Stack model, it's just a LinkedList with insert and delete restrictions also, this model will be used in a thrid application about commitments memo, which the user will be able to:
+- The stack package contains a Stack model, like the queue, it's just a LinkedList with insert and delete restrictions, this model will be used in a thrid application about commitments memo, which the user will be able to:
 
     1. Add commitments (Date and description).
     2. Remove commitments. 
