@@ -30,7 +30,7 @@ I've created this library to use as a model for the application which the user w
     
 - The stack package contains a Stack model, it's just a LinkedList with insert and delete restrictions also, this model will be used in a thrid application about commitments memo, which the user will be able to:
 
-    1. Add commitment dates and descriptions.
-    2. Remove commitment dates and descriptions.
+    1. Add commitments (Date and description).
+    2. Remove commitments. 
     3. Search commitments by date or description.
     4. Update commitments.
