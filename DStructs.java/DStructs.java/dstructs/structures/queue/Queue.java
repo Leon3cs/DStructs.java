@@ -114,7 +114,7 @@ public class Queue extends LinkedList implements QueueServiceI{
 
     @Override
     public void remove() {
-        if(getLength()>0 && getHead().getNextNode()!=null){
+        if(getLength()>0){
             setHead(getHead().getNextNode());
             this.length--;
         }else{

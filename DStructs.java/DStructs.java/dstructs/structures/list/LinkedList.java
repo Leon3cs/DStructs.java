@@ -143,7 +143,7 @@ public class LinkedList implements LinkedListServiceI{
     
     @Override
     public void deleteAtStart(){
-        if(getLength()>0 && getHead().getNextNode()!=null){
+        if(getLength()>0){
             setHead(getHead().getNextNode());
             this.length--;
         }else{
@@ -153,7 +153,7 @@ public class LinkedList implements LinkedListServiceI{
     
     @Override
     public void deleteAtEnd(){
-        if(getLength()>0 && getLast()!=null){
+        if(getLength()>0){
             setTail(getLast());
             this.length--;
         }else{

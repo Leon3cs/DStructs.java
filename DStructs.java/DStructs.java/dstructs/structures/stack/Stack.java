@@ -114,7 +114,7 @@ public class Stack extends LinkedList implements StackServiceI{
 
     @Override
     public void pop() {
-        if(getLength()>0 && getHead().getNextNode()!=null){
+        if(getLength()>0){
             setHead(getHead().getNextNode());
             this.length--;
         }else{

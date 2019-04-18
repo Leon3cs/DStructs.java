@@ -31,8 +31,8 @@ package dstructs.structures.list;
 public interface LinkedListServiceI {
     
     /**
-     *Adds a node at the head of the list.
-     *@param n
+     * Adds a node at the head of the list.
+     * @param n
      */
     public void insertAtStart(NodeL n);
     /**
@@ -47,15 +47,15 @@ public interface LinkedListServiceI {
      */
     public void insert(NodeL n, int index);
     /**
-     * Removes a node of the list from it's head.
+     * Removes a node of the list from its head.
      */
     public void deleteAtStart();
     /**
-     * Removes a node of the list from it's tail.
+     * Removes a node of the list from its tail.
      */
     public void deleteAtEnd();
     /**
-     * Removes a node of the list from a given index.
+     * Removes the node of the list at the given index.
      * @param index
      */
     public void delete(int index);
@@ -66,7 +66,7 @@ public interface LinkedListServiceI {
      */
     public NodeL moveListToPosition(int pos);
     /**
-     * Retrieves the last node from the list.
+     * Retrieves the last node of the list.
      * @return NodeL
      */
     public NodeL getLast();
